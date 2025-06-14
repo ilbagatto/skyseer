@@ -60,7 +60,7 @@ func BuildWindow(app fyne.App) fyne.Window {
 
 	// === Vertical actions ===
 	actions := container.NewVBox(
-		widget.NewButtonWithIcon("", theme.ContentCutIcon(), func() {
+		widget.NewButtonWithIcon("", theme.DocumentCreateIcon(), func() {
 			// TODO: Edit Chart Data
 		}),
 		widget.NewButtonWithIcon("", theme.DocumentSaveIcon(), func() {
